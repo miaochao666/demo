@@ -111,7 +111,7 @@ public class DemoApplicationTests {
 
     @Test
     public void testCache(){
-        User user=userMapper.findByUsername("2w");
+        /*User user=userMapper.findByUsername("2w");
         System.out.println(user.toString());
         user=userMapper.findByUsername("2w");
         System.out.println(user.toString());
@@ -122,6 +122,6 @@ public class DemoApplicationTests {
         System.out.println(list.size());
         userMapper.deleteUsers(1);
         list=userMapper.selectAllUser();
-        System.out.println(list.size());
+        System.out.println(list.size());*/
     }
 }
